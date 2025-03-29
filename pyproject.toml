@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf_merger"
+version = "1.0.0"
+description = "PDF 파일을 손쉽게 병합하는 애플리케이션"
+readme = "README.md"
+authors = [
+    {name = "reinhardt0926", email = "reinhardt0926@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "PyPDF2>=3.0.0",
+]
+
+[project.scripts]
+pdf_merger = "src.main:main"
+
+[project.urls]
+"Homepage" = "https://github.com/reinhardt0926/pdf_merger"
+"Bug Tracker" = "https://github.com/yourusername/pdf_merger/issues"
+
+[tool.setuptools]
+packages = ["src", "src.ui"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+pdf_merger = ["resources/icons/*.ico"]
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 88
+target-version = ["py36", "py37", "py38", "py39"]
+
+[tool.mypy]
+python_version = "3.6"
+warn_return_any = true
+warn_unused_configs = true
