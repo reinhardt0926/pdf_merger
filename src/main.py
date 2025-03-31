@@ -19,7 +19,7 @@ def main():
             application_path = os.path.dirname(os.path.abspath(__file__))
         
         # 애플리케이션 아이콘 경로
-        icon_path = os.path.join(application_path, 'resources', 'icons', 'pdf_img.ico')
+        icon_path = os.path.join(os.path.dirname(application_path), 'resources', 'icons', 'pdf_img.ico')
         
         # 애플리케이션 시작
         root = tk.Tk()
