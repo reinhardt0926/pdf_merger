@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [project.scripts]
-pdf_merger = "src.main:main"
+pdf_merger = "main:main"
 
 [project.urls]
 "Homepage" = "https://github.com/reinhardt0926/pdf_merger"
