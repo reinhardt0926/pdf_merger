@@ -41,7 +41,7 @@ pdf_merger
 또는 소스 코드에서 직접 실행:
 
 ```bash
-python -m src.main
+python -m pdf_src.main
 ```
 
 ### 사용 예시
@@ -58,7 +58,7 @@ python -m src.main
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --icon=resources/icons/pdf_img.ico --add-data "resources;resources" src/main.py
+pyinstaller --onefile --windowed --icon=resources/icons/pdf_img.ico --add-data "resources;resources" pdf_src/main.py
 ```
 
 생성된 실행 파일은 `dist` 폴더에서 찾을 수 있습니다.
