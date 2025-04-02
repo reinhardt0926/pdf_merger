@@ -4,7 +4,7 @@ PDF 합치기 애플리케이션의 진입점
 """
 import sys
 import os
-from src.ui.app_ui import PDFMergerApp
+from pdf_src.ui.app_ui import PDFMergerApp
 import tkinter as tk
 
 def main():

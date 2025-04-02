@@ -33,7 +33,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pdf_merger=src.main:main',
+            'pdf_merger=pdf_src.main:main',
         ],
     },
     # package_data={

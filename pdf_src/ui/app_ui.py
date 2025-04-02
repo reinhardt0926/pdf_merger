@@ -4,8 +4,7 @@ PDF 합치기 애플리케이션의 사용자 인터페이스
 import os
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
-from src.pdf_merger import PDFMerger
-# from src.pdf_merger import PDFMerger
+from pdf_src.pdf_merger import PDFMerger
 
 class PDFMergerApp:
     """PDF 합치기 애플리케이션의 GUI 클래스"""

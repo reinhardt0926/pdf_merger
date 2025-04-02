@@ -22,14 +22,14 @@ dependencies = [
 ]
 
 [project.scripts]
-pdf_merger = "src.main:main"
+pdf_merger = "pdf_src.main:main"
 
 [project.urls]
 "Homepage" = "https://github.com/reinhardt0926/pdf_merger"
 "Bug Tracker" = "https://github.com/reinhardt0926/pdf_merger/issues"
 
 [tool.setuptools]
-packages = ["src", "src.ui"]
+packages = ["pdf_src", "pdf_src.ui"]
 include-package-data = true
 
 [tool.setuptools.package-data]
