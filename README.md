@@ -2,6 +2,8 @@
 
 여러 PDF 파일을 쉽게 병합할 수 있는 사용자 친화적인 애플리케이션입니다.
 
+![PDF 파일 합치기 스크린샷](docs/images/pdf_merge_screenshot.JPG)
+
 ## 주요 기능
 
 - 여러 PDF 파일 병합
